@@ -1,4 +1,11 @@
-# ✈️ Flight Delay & Cancellation Predictor (2019–2023)
+# Save the README content to a markdown file
+
+readme_content = """# ✈️ Flight Delay & Cancellation Predictor (2019–2023)
+
+![GPU Accelerated](https://img.shields.io/badge/GPU-Accelerated-brightgreen)
+![Python](https://img.shields.io/badge/Python-3.10+-blue)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+![Status](https://img.shields.io/badge/Project-Complete-success)
 
 Welcome to a high-flying journey into the world of U.S. air travel, where we combine data science, machine learning, and GPU acceleration to predict flight delays and cancellations. This project explores over **3 million flight records** from **2019 to 2023**, aiming to identify patterns, bottlenecks, and predictors of delayed flights.
 
@@ -14,7 +21,7 @@ Welcome to a high-flying journey into the world of U.S. air travel, where we com
   - cuML Logistic Regression
   - cuML Support Vector Classifier
   - XGBoost (for comparison)
-- 🧮 **Accelerated Computing:** GPU acceleration with RAPIDS & CUDA
+- ⚡ **Accelerated Computing:** GPU-powered training with RAPIDS (cuML) + CUDA
 - 📈 **Evaluation Metrics:** Accuracy, Classification Report, Confusion Matrix
 
 ---
@@ -23,20 +30,23 @@ Welcome to a high-flying journey into the world of U.S. air travel, where we com
 
 | Model                   | Accuracy |
 |------------------------|----------|
-| **cuML Random Forest** | **95.7%** |
-| cuML SVC               | 92.3%    |
-| XGBoost                | 91.8%    |
+| 🧠 **cuML Random Forest** | ✅ **95.7%** |
+| 🧠 cuML SVC             | 92.3%    |
+| ⚙️ XGBoost              | 91.8%    |
 
 - 🚀 **GPU Detected:** Yes (via `GPUtil`)
-- 🕒 **Training Time:** ~4x faster on GPU than CPU-based models
-- 🔎 **Feature Engineering:** Time of day, distance bands, airline ID, etc.
-- 🔍 **Insight:** Flights scheduled between 6 PM–11 PM had a higher delay rate.
+- 🕒 **Speed Boost:** Training time reduced by ~4x using GPU over CPU
+- 📌 **Feature Engineering:** Includes time slots, distances, carrier IDs
+- 🔍 **Key Insight:** Flights between 6 PM–11 PM showed higher delay probabilities
 
 ---
 
-## 📦 Setup
+## 🛠️ Setup Instructions
+
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/yourusername/flight-delay-prediction.git
 cd flight-delay-prediction
+
 pip install -r requirements.txt
