@@ -1,6 +1,4 @@
-# Save the README content to a markdown file
-
-readme_content = """# ✈️ Flight Delay & Cancellation Predictor (2019–2023)
+# ✈️ Flight Delay & Cancellation Predictor (2019–2023)
 
 ![GPU Accelerated](https://img.shields.io/badge/GPU-Accelerated-brightgreen)
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
