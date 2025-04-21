@@ -1,0 +1,15 @@
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+xgboost
+joblib
+GPUtil
+kaggle
+
+# RAPIDS AI cuML dependencies (for GPU acceleration)
+cuml-cu11==24.02
+rmm-cu11==24.02
+cupy-cuda11x  # CUDA-accelerated numpy
+cudf-cu11==24.02
